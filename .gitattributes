@@ -1,0 +1,10 @@
+# Configuration for git attributes
+*.jpg binary
+*.sh text eol=lf
+*.map linguist-generated 
+
+src/**/*.tsx linguist-detectable
+public/index.html linguist-vendored
+*.svg text
+
+package-lock.json linguist-generated
